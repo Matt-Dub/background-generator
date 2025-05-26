@@ -1,3 +1,7 @@
+import { without } from 'lodash';
+
+console.log(without);
+
 const textItems = [document.querySelector("h1"), document.querySelector("h2"), document.querySelector("h3")];
 const [ color1, color2 ] = document.querySelector(".color1");
 const body = document.getElementById("gradient");
